@@ -1,3 +1,4 @@
+#1
 n = int(input())
 k = int(input())-1
 
@@ -14,6 +15,7 @@ while len(ones) > 1:
     
 print(*ones)
 
+#2
 n = int(input())
 k = int(input())
  
@@ -22,6 +24,7 @@ for i in range(1, n+1):
     res = (res + k) % i
 print(res + 1)
 
+#3
 n = int(input())
 k = int(input())
 list = [i for i in range(1, n + 1)]
